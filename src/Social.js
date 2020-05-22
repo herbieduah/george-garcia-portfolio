@@ -4,11 +4,12 @@ import social_data from "./social_data";
 function Social() {
   const allSocial = social_data.map((data) => {
     const { link, name } = data; // data.link, data.name
+
     return (
       <li>
         <a href={link} target="_blank" className="george__link">
           {name}
-        </a>
+        </a>{" "}
       </li>
     );
   });
