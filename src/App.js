@@ -15,7 +15,7 @@ function App() {
 
       <div className="col-50">
         {/* <img src={george_iphone} className="george__iphoneImage" alt="A picture of me in a mockup" /> */}
-        <img src={george_iphone} className="george__iphoneImage" alt="A picture of me in a mockup" />
+        <img src={george_iphone} className="george__iphoneImage" alt="Selfie in a mockup" />
       </div>
     </div>
   );
